@@ -1,0 +1,269 @@
+2023-04-24 01:49:52,205 - aiogram - INFO - Bot: salessss [@sssallessbot]
+2023-04-24 01:49:52,924 - aiogram - WARNING - Updates were skipped successfully.
+2023-04-24 01:49:52,925 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2023-04-24 01:50:00,660 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2023-04-24 01:50:00,660 - aiogram - WARNING - Goodbye!
+2023-04-24 01:50:02,410 - aiogram - INFO - Bot: salessss [@sssallessbot]
+2023-04-24 01:50:03,133 - aiogram - WARNING - Updates were skipped successfully.
+2023-04-24 01:50:03,134 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2023-04-24 01:50:39,870 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2023-04-24 01:50:39,870 - aiogram - WARNING - Goodbye!
+2023-04-24 01:50:41,544 - aiogram - INFO - Bot: salessss [@sssallessbot]
+2023-04-24 01:50:42,248 - aiogram - WARNING - Updates were skipped successfully.
+2023-04-24 01:50:42,248 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2023-04-24 01:50:42,677 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2023-04-24 01:50:42,677 - aiogram - WARNING - Goodbye!
+2023-04-24 01:50:45,691 - aiogram - INFO - Bot: salessss [@sssallessbot]
+2023-04-24 01:50:46,411 - aiogram - WARNING - Updates were skipped successfully.
+2023-04-24 01:50:46,411 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2023-04-24 01:50:54,457 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2023-04-24 01:50:54,457 - aiogram - WARNING - Goodbye!
+2023-04-24 01:50:56,887 - aiogram - INFO - Bot: salessss [@sssallessbot]
+2023-04-24 01:50:57,594 - aiogram - WARNING - Updates were skipped successfully.
+2023-04-24 01:50:57,594 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2023-04-24 01:51:09,834 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2023-04-24 01:51:09,835 - aiogram - WARNING - Goodbye!
+2023-04-24 01:51:12,057 - aiogram - INFO - Bot: salessss [@sssallessbot]
+2023-04-24 01:51:12,777 - aiogram - WARNING - Updates were skipped successfully.
+2023-04-24 01:51:12,777 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2023-04-24 01:51:54,480 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2023-04-24 01:51:54,480 - aiogram - WARNING - Goodbye!
+2023-04-24 01:51:56,182 - aiogram - INFO - Bot: salessss [@sssallessbot]
+2023-04-24 01:51:56,901 - aiogram - WARNING - Updates were skipped successfully.
+2023-04-24 01:51:56,901 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2023-04-24 01:52:25,447 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2023-04-24 01:52:25,448 - aiogram - WARNING - Goodbye!
+2023-04-24 01:55:06,554 - aiogram - INFO - Bot: salessss [@sssallessbot]
+2023-04-24 01:55:07,266 - aiogram - WARNING - Updates were skipped successfully.
+2023-04-24 01:55:07,266 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2023-04-24 01:55:27,532 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2023-04-24 01:55:27,533 - aiogram - WARNING - Goodbye!
+2023-04-24 01:55:29,240 - aiogram - INFO - Bot: salessss [@sssallessbot]
+2023-04-24 01:55:29,959 - aiogram - WARNING - Updates were skipped successfully.
+2023-04-24 01:55:29,959 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2023-04-24 02:49:44,036 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiohttp\client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiohttp\client.py", line 560, in _request
+    await resp.start(conn)
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiohttp\client_reqrep.py", line 914, in start
+    self._continue = None
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiohttp\helpers.py", line 720, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+2023-04-24 03:02:46,668 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiohttp\client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiohttp\client.py", line 560, in _request
+    await resp.start(conn)
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiohttp\client_reqrep.py", line 899, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiohttp\streams.py", line 616, in read
+    await self._waiter
+aiohttp.client_exceptions.ClientOSError: [WinError 121] Превышен таймаут семафора
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiogram\bot\api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientOSError: [WinError 121] Превышен таймаут семафора
+2023-04-24 05:55:09,397 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiohttp\client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiohttp\client.py", line 560, in _request
+    await resp.start(conn)
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiohttp\client_reqrep.py", line 914, in start
+    self._continue = None
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiohttp\helpers.py", line 720, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+2023-04-24 06:55:55,566 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiohttp\client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiohttp\client.py", line 560, in _request
+    await resp.start(conn)
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiohttp\client_reqrep.py", line 914, in start
+    self._continue = None
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiohttp\helpers.py", line 720, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+2023-04-24 07:56:45,097 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiohttp\client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiohttp\client.py", line 560, in _request
+    await resp.start(conn)
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiohttp\client_reqrep.py", line 914, in start
+    self._continue = None
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiohttp\helpers.py", line 720, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+2023-04-24 08:57:52,985 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiohttp\client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiohttp\client.py", line 560, in _request
+    await resp.start(conn)
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiohttp\client_reqrep.py", line 914, in start
+    self._continue = None
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiohttp\helpers.py", line 720, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+2023-04-24 09:59:00,549 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiohttp\client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiohttp\client.py", line 560, in _request
+    await resp.start(conn)
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiohttp\client_reqrep.py", line 914, in start
+    self._continue = None
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiohttp\helpers.py", line 720, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+2023-04-24 10:59:47,407 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiohttp\client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiohttp\client.py", line 560, in _request
+    await resp.start(conn)
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiohttp\client_reqrep.py", line 914, in start
+    self._continue = None
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiohttp\helpers.py", line 720, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+2023-04-24 15:23:23,108 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiohttp\client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiohttp\client.py", line 560, in _request
+    await resp.start(conn)
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiohttp\client_reqrep.py", line 914, in start
+    self._continue = None
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiohttp\helpers.py", line 720, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+2023-04-24 16:57:29,003 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiohttp\client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiohttp\client.py", line 560, in _request
+    await resp.start(conn)
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiohttp\client_reqrep.py", line 914, in start
+    self._continue = None
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiohttp\helpers.py", line 720, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+2023-04-24 17:20:17,903 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiohttp\client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiohttp\client.py", line 560, in _request
+    await resp.start(conn)
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiohttp\client_reqrep.py", line 899, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiohttp\streams.py", line 616, in read
+    await self._waiter
+aiohttp.client_exceptions.ClientOSError: [WinError 1236] Подключение к сети было разорвано локальной системой
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\UseZver\AppData\Local\Programs\Python\Python38\lib\site-packages\aiogram\bot\api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientOSError: [WinError 1236] Подключение к сети было разорвано локальной системой
+2023-04-24 22:42:48,489 - aiogram - INFO - Bot: salessss [@sssallessbot]
+2023-04-24 22:42:49,197 - aiogram - WARNING - Updates were skipped successfully.
+2023-04-24 22:42:49,198 - aiogram.dispatcher.dispatcher - INFO - Start polling.
