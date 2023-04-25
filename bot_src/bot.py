@@ -1,10 +1,6 @@
-from aiogram import types
-from aiogram.dispatcher.filters import Command
-
-from handlers.start_handler import start_handler
-from aiogram.dispatcher import FSMContext
+from bot_src.handlers.start_handler import start_handler
 from aiogram import executor
-from bot_setup import bot, dp
+from bot_setup import dp
 
 # настройка логирования
 

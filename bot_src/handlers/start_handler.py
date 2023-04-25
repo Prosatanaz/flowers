@@ -1,6 +1,6 @@
 from aiogram import types
-from models import markup
-from bot_setup import bot
+from bot_src.models import markup
+from bot_src.bot_setup import bot
 
 
 async def start_handler(message: types.Message):
